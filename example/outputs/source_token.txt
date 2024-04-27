@@ -1,0 +1,62 @@
+1: int main[] {
+    1: keyword: int
+    1: ids: main
+    1: delimiter: [
+    1: delimiter: ]
+    1: delimiter: {
+2: int c = 0;
+    2: keyword: int
+    2: keyword: c
+    2: operator: =
+    2: const: 0
+    2: delimiter: ;
+3: int d = 100;
+    3: keyword: int
+    3: keyword: d
+    3: operator: =
+    3: const: 100
+    3: delimiter: ;
+4: int 2y;
+    4: keyword: int
+    4: illegal: 2y
+    4: delimiter: ;
+5: while[c <= 100 and d >= 10]{
+    5: keyword: while
+    5: delimiter: [
+    5: keyword: c
+    5: operator: <=
+    5: const: 100
+    5: ids: and
+    5: keyword: d
+    5: operator: >=
+    5: const: 10
+    5: delimiter: ]
+    5: delimiter: {
+6: c = c + 1;
+    6: keyword: c
+    6: operator: =
+    6: keyword: c
+    6: operator: +
+    6: const: 1
+    6: delimiter: ;
+7: d = d * 1.;
+    7: keyword: d
+    7: operator: =
+    7: keyword: d
+    7: illegal: *
+    7: const: 1.
+    7: delimiter: ;
+8: }
+    8: delimiter: }
+9: printf[c];
+    9: ids: printf
+    9: delimiter: [
+    9: keyword: c
+    9: delimiter: ]
+    9: delimiter: ;
+10: return 0;
+    10: keyword: return
+    10: const: 0
+    10: delimiter: ;
+11: }
+    11: delimiter: }

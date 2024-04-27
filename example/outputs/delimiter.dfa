@@ -1,0 +1,17 @@
+MinimizedDFA {
+    name: delimiter
+    inputs: , / ; [ ] { } 
+    states: 1 0 2 
+    start_state_id: 1
+    end_states: 0 
+    transitions: [
+        1 -> , -> 0
+        1 -> / -> 2
+        1 -> ; -> 0
+        1 -> [ -> 0
+        1 -> ] -> 0
+        1 -> { -> 0
+        1 -> } -> 0
+        2 -> / -> 0
+    ]
+}

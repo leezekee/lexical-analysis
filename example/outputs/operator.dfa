@@ -1,0 +1,24 @@
+MinimizedDFA {
+    name: operator
+    inputs: = ! % + - / < > @ a o d n r 
+    states: 1 0 2 4 5 3 
+    start_state_id: 2
+    end_states: 0 1 
+    transitions: [
+        1 -> = -> 0
+        2 -> ! -> 1
+        2 -> % -> 1
+        2 -> + -> 1
+        2 -> - -> 1
+        2 -> / -> 1
+        2 -> < -> 1
+        2 -> = -> 1
+        2 -> > -> 1
+        2 -> @ -> 1
+        2 -> a -> 4
+        2 -> o -> 5
+        3 -> d -> 0
+        4 -> n -> 3
+        5 -> r -> 0
+    ]
+}
